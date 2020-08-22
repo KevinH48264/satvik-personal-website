@@ -1,5 +1,13 @@
 import React from 'react'
+import { Font } from '../styles'
+import Contact from '../../components/Contact'
+import Featured from '../../components/Featured'
 
-const Home = () => <div>Welcome to the DEV React starter!</div>
+const ContactPage = () => (
+  <Font>
+    <Contact />
+    <Featured />
+  </Font>
+)
 
-export default Home
+export default ContactPage

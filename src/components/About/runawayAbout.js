@@ -2,16 +2,27 @@ import React from 'react'
 import { InfoContainer, InfoInner, Text } from './styles'
 
 const RunawayAbout = () => (
-  <InfoContainer style={{ backgroundColor: 'pink' }}>
+  <InfoContainer style={{ backgroundColor: '#FFE8FD' }}>
     <InfoInner style={{ color: 'black', fontFamily: 'helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif' }}>
-      <div>
-        {/* <img></img> */}
-        <div>
-          <p>RUNAWAY</p>
-          <p>Founder and Chief Executive Officer</p>
+      <div style={{
+        display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '50px',
+      }}
+      >
+        <img style={{ paddingRight: '20px', width: '150px' }} src="./runaway_logo.webp" alt="" />
+        <div style={{
+          display: 'flex', flexDirection: 'column', alignItems: 'flex-start',
+        }}
+        >
+          <p style={{ fontSize: '48px', margin: '0px' }}>RUNAWAY</p>
+          <p style={{ fontSize: '28px', margin: '0px' }}>Founder and Chief Executive Officer</p>
         </div>
       </div>
-      <Text style={{ fontSize: '24px', fontWeight: 'bold' }}>Runaway is a social venture that aims to promote mental health awareness and help those in need of emotional support.​ Our vision is to make the world happier.</Text>
+      <Text style={{
+        fontSize: '24px', fontWeight: 'bold', paddingTop: '50px', margin: '0px',
+      }}
+      >
+        Runaway is a social venture that aims to promote mental health awareness and help those in need of emotional support.​ Our vision is to make the world happier.
+      </Text>
       <Text style={{ fontSize: '24px' }}>
         Runaway is a multi-faceted operation – we are constantly exploring and adding services, tools, resources, and educational outlets that provide people with access to mental health help, break down the stigma that surrounds the topic, and make people feel more comfortable in their everyday life.
         <br />

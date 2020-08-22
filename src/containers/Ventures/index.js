@@ -1,14 +1,12 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
 import { Font } from '../styles'
 import ProjectCovidAbout from '../../components/About/projectCovidAbout'
 import RunawayAbout from '../../components/About/runawayAbout'
 import Featured from '../../components/Featured'
 import VenturesTagline from '../../components/Tagline/venturesTagline'
 
-const Home = () => (
+const VenturesPage = () => (
   <Font>
-    <Navbar />
     <VenturesTagline />
     <RunawayAbout />
     <ProjectCovidAbout />
@@ -16,4 +14,4 @@ const Home = () => (
   </Font>
 )
 
-export default Home
+export default VenturesPage

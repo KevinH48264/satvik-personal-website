@@ -10,6 +10,8 @@ export const TagContainer = styled.div`
     margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 0px;
+    font-family: helvetica, helvetica-thin, helvetica-w01-light,helvetica-w02-light, arial, sans-serif;
+    font-weight: 200;
 `
 export const TagInner = styled.div`
     display: flex;

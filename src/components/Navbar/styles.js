@@ -25,3 +25,8 @@ export const NavbarLink = styled(NavLink)`
     text-decoration: none;
     font: normal normal normal 18px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
 `
+
+export const NavbarImage = styled.img`
+    height: 2rem;
+    padding: 0px 5px 0px 5px;
+`
