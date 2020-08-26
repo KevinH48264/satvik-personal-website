@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "https://KevinH48264.github.io/satvik-personal-website/static/css/main.f52ea196.chunk.css",
-    "main.js": "https://KevinH48264.github.io/satvik-personal-website/static/js/main.39085142.chunk.js",
-    "main.js.map": "https://KevinH48264.github.io/satvik-personal-website/static/js/main.39085142.chunk.js.map",
-    "runtime-main.js": "https://KevinH48264.github.io/satvik-personal-website/static/js/runtime-main.09cc4317.js",
-    "runtime-main.js.map": "https://KevinH48264.github.io/satvik-personal-website/static/js/runtime-main.09cc4317.js.map",
-    "static/js/2.0a2c81da.chunk.js": "https://KevinH48264.github.io/satvik-personal-website/static/js/2.0a2c81da.chunk.js",
-    "static/js/2.0a2c81da.chunk.js.map": "https://KevinH48264.github.io/satvik-personal-website/static/js/2.0a2c81da.chunk.js.map",
-    "index.html": "https://KevinH48264.github.io/satvik-personal-website/index.html",
-    "precache-manifest.4053ac1ce6303c782d0cc224021e75f3.js": "https://KevinH48264.github.io/satvik-personal-website/precache-manifest.4053ac1ce6303c782d0cc224021e75f3.js",
-    "service-worker.js": "https://KevinH48264.github.io/satvik-personal-website/service-worker.js",
-    "static/css/main.f52ea196.chunk.css.map": "https://KevinH48264.github.io/satvik-personal-website/static/css/main.f52ea196.chunk.css.map",
-    "static/js/2.0a2c81da.chunk.js.LICENSE.txt": "https://KevinH48264.github.io/satvik-personal-website/static/js/2.0a2c81da.chunk.js.LICENSE.txt"
+    "main.css": "/satvik-personal-website/static/css/main.f52ea196.chunk.css",
+    "main.js": "/satvik-personal-website/static/js/main.39085142.chunk.js",
+    "main.js.map": "/satvik-personal-website/static/js/main.39085142.chunk.js.map",
+    "runtime-main.js": "/satvik-personal-website/static/js/runtime-main.4032f741.js",
+    "runtime-main.js.map": "/satvik-personal-website/static/js/runtime-main.4032f741.js.map",
+    "static/js/2.f7215e98.chunk.js": "/satvik-personal-website/static/js/2.f7215e98.chunk.js",
+    "static/js/2.f7215e98.chunk.js.map": "/satvik-personal-website/static/js/2.f7215e98.chunk.js.map",
+    "index.html": "/satvik-personal-website/index.html",
+    "precache-manifest.0744ab2325816003e5abbce75388b4c9.js": "/satvik-personal-website/precache-manifest.0744ab2325816003e5abbce75388b4c9.js",
+    "service-worker.js": "/satvik-personal-website/service-worker.js",
+    "static/css/main.f52ea196.chunk.css.map": "/satvik-personal-website/static/css/main.f52ea196.chunk.css.map",
+    "static/js/2.f7215e98.chunk.js.LICENSE.txt": "/satvik-personal-website/static/js/2.f7215e98.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.09cc4317.js",
-    "static/js/2.0a2c81da.chunk.js",
+    "static/js/runtime-main.4032f741.js",
+    "static/js/2.f7215e98.chunk.js",
     "static/css/main.f52ea196.chunk.css",
     "static/js/main.39085142.chunk.js"
   ]
