@@ -2,7 +2,6 @@
   "name": "bootcamp-web-starter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://KevinH48264.github.io/satvik-personal-website",
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
     "@storybook/react": "^5.3.19",
@@ -18,7 +17,6 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
-    "react-transition-group": "^4.4.1",
     "styled-components": "^4.4.0",
     "webpack": "^4.44.1"
   },
@@ -28,14 +26,11 @@
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.6",
-    "gh-pages": "^2.1.1"
+    "eslint-plugin-react": "^7.20.6"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
     "dev": "react-scripts start",
+    "build": "react-scripts build",
     "lint": "eslint \"src/**/*.js\"",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
