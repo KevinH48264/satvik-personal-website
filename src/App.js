@@ -13,6 +13,8 @@ import VenturesPage from './containers/Ventures'
 import Navbar from './components/Navbar'
 import './App.css'
 
+// "homepage": "https://KevinH48264.github.io/satvik-personal-website",
+
 const App = () => (
   <Router>
     <ThemeProvider theme={theme}>
@@ -29,7 +31,7 @@ const App = () => (
                 <Switch location={location}>
                   <Route path="/ventures" component={VenturesPage} />
                   <Route path="/press" component={PressPage} />
-                  <Route exact path="/" component={HomePage} />
+                  <Route path="/" component={HomePage} />
                 </Switch>
               </CSSTransition>
             </TransitionGroup>
