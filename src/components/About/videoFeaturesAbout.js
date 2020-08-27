@@ -3,8 +3,8 @@ import { InfoContainer, InfoInner } from './styles'
 
 const VideoFeaturesAbout = () => (
   <InfoContainer style={{ backgroundColor: 'lightblue' }}>
-    <InfoInner style={{ color: 'black', fontFamily: 'helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif' }}>
-      <p style={{ color: 'white', fontSize: '40px' }}>Video Features</p>
+    <InfoInner style={{ color: 'black' }}>
+      <p style={{ color: 'white', fontWeight: 'bold', fontSize: '44px' }}>Video Features</p>
       <div style={{ width: '100%', display: 'flex', flexDirection: 'row' }}>
         <div style={{ width: '50%' }} id="column1">
           <iframe title="VideoFeature1" width="448" height="252" src="https://www.youtube.com/embed/Xddw4WF9Klk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />

@@ -8,6 +8,7 @@ export const NavbarContainer = styled.div`
     justify-content: center;
     height: 80px;
     background-color: white;
+    font-family: 'Helvetica Roman';
 `
 
 export const NavInner = styled.div`

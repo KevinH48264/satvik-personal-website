@@ -7,7 +7,7 @@ const NavBar = () => (
   <NavbarContainer>
     <NavInner>
       <NavbarLink style={{ color: 'black', textDecoration: 'none' }} to="/">
-        <p style={{ fontSize: '36px ', fontWeight: 'bold', fontFamily: 'Helvetica' }}>SATVIK SETHI</p>
+        <p style={{ fontSize: '36px ', fontWeight: 'bold', fontFamily: 'Helvetica Roman' }}>SATVIK SETHI</p>
       </NavbarLink>
       <div
         className="nav"

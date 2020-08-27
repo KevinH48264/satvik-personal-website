@@ -12,6 +12,7 @@ import PressPage from './containers/Press'
 import VenturesPage from './containers/Ventures'
 import Navbar from './components/Navbar'
 import './App.css'
+import { GlobalStyles } from './global-styles'
 
 // "homepage": "https://KevinH48264.github.io/satvik-personal-website",
 
@@ -19,6 +20,7 @@ const App = () => (
   <Router>
     <ThemeProvider theme={theme}>
       <ApolloProvider client={client}>
+        {/* <GlobalStyles> */}
         <div className="App">
           <Navbar />
           <Route render={({ location }) => (
@@ -38,6 +40,7 @@ const App = () => (
           )}
           />
         </div>
+        {/* </GlobalStyles> */}
       </ApolloProvider>
     </ThemeProvider>
   </Router>

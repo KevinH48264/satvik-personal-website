@@ -14,7 +14,7 @@ export const InfoInner = styled.div`
     flex-direction: column;  
     width: 960px;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Helvetica Light';
     padding-top: 20px;
     padding-bottom: 100px;
 `
@@ -45,4 +45,6 @@ export const FeatureLink = styled.a`
 
 export const Text = styled.p`
     font-size: 16px;
+    line-height: normal;
+    letter-spacing: normal;
 `

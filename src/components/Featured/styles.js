@@ -14,6 +14,7 @@ export const InfoInner = styled.div`
     align-items: center;
     width: 960px;
     color: black;
+    font-family: 'Helvetica Light';
 `
 
 export const FeaturesContainer = styled.div`

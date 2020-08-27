@@ -3,7 +3,7 @@ import { InfoContainer, InfoInner, Text } from './styles'
 
 const KaizenAbout = () => (
   <InfoContainer style={{ backgroundColor: '#FFFFFF' }}>
-    <InfoInner style={{ color: 'black', fontFamily: 'helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif' }}>
+    <InfoInner style={{ color: 'black' }}>
       <div style={{
         display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '40px',
       }}
@@ -13,17 +13,22 @@ const KaizenAbout = () => (
           display: 'flex', flexDirection: 'column', alignItems: 'flex-start',
         }}
         >
-          <p style={{ fontSize: '40px', margin: '0px' }}>KAIZEN LEARNING</p>
-          <p style={{ fontSize: '24px', margin: '0px' }}>Founder and Chief Executive Officer</p>
+          <p style={{
+            fontSize: '40px', fontWeight: 'bold', margin: '0px', fontFamily: 'Montserrat',
+          }}
+          >
+            KAIZEN LEARNING
+          </p>
+          <p style={{ fontSize: '24px', margin: '0px', fontFamily: 'Montserrat' }}>Founder and Chief Executive Officer</p>
         </div>
       </div>
       <Text style={{
-        fontSize: '18px', fontWeight: 'bold', paddingTop: '50px', margin: '0px',
+        fontSize: '20px', fontWeight: 'bold', paddingTop: '50px', margin: '0px', fontFamily: 'Helvetica Roman',
       }}
       >
         Kaizen Learning is a social venture in the education space that aims to make learning free, accessible, and easy.
       </Text>
-      <Text style={{ fontSize: '18px' }}>
+      <Text style={{ fontSize: '20px' }}>
         Most families across the world do not have the financial resources to afford private educators and a high quality education, and are often left wondering how their child will succeed in an environment that often ignores their needs.
         <br />
         <br />
