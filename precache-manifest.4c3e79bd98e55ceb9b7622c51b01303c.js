@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "debe2a02011bed34007741801e8a74cc",
+    "revision": "79c65dda70ca159590ba3de56750793b",
     "url": "/satvik-personal-website/index.html"
   },
   {
-    "revision": "5be44923192e2a790a73",
-    "url": "/satvik-personal-website/static/css/main.f52ea196.chunk.css"
+    "revision": "8498dfcdf11f981751d6",
+    "url": "/satvik-personal-website/static/css/main.4c7ff17e.chunk.css"
   },
   {
     "revision": "5992e1702b813d96206f",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/satvik-personal-website/static/js/2.f7215e98.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5be44923192e2a790a73",
+    "revision": "8498dfcdf11f981751d6",
     "url": "/satvik-personal-website/static/js/main.0dc3a9e8.chunk.js"
   },
   {
