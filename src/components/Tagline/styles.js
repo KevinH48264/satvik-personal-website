@@ -20,6 +20,6 @@ export const TagInner = styled.div`
     flex-direction: column;  
     width: 960px;
     color: black;
-    font-size: 72px;
-
+    font-size: min(10vh, 10vw);
+    padding-left: 20px;
 `

@@ -8,7 +8,7 @@ const ProjectCovidAbout = () => (
         display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '40px',
       }}
       >
-        <img style={{ paddingRight: '16px', width: '104px' }} src={`${process.env.PUBLIC_URL}/pc_logo.webp`} alt="" />
+        <img style={{ paddingRight: '15px', paddingLeft: '10px', width: '120px' }} src={`${process.env.PUBLIC_URL}/pc_logo.webp`} alt="" />
         <div style={{
           display: 'flex', flexDirection: 'column', alignItems: 'flex-start',
         }}

@@ -15,8 +15,18 @@ export const InfoInner = styled.div`
     width: 960px;
     color: white;
     font-family: 'Helvetica Light';
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding: 20px 30px 100px 30px;
+`
+
+export const MobileFeaturesInfoInner = styled.div`
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;  
+    width: 100%;
+    color: white;
+    font-family: 'Helvetica Light';
+    padding: 20px 30px 100px 30px;
 `
 export const Feature = styled.div`
     background-color: black;

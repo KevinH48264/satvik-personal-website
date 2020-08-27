@@ -8,7 +8,7 @@ const RunawayAbout = () => (
         display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '40px',
       }}
       >
-        <img style={{ paddingRight: '16px', width: '120px' }} src={`${process.env.PUBLIC_URL}/runaway_logo.webp`} alt="" />
+        <img style={{ paddingRight: '16px', width: '110px' }} src={`${process.env.PUBLIC_URL}/runaway_logo.webp`} alt="" />
         <div style={{
           display: 'flex', flexDirection: 'column', alignItems: 'flex-start',
         }}

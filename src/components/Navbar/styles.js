@@ -14,8 +14,7 @@ export const NavbarContainer = styled.div`
 export const NavInner = styled.div`
     display: flex; 
     flex-wrap: nowrap; 
-    width: 100%; 
-    max-width: 960px; 
+    width: 960px; 
     justify-content: space-between; 
     align-items: center; 
 `

@@ -8,7 +8,7 @@ const KaizenAbout = () => (
         display: 'flex', flexDirection: 'row', alignItems: 'center', paddingTop: '40px',
       }}
       >
-        <img style={{ marginRight: '16px', width: '120px' }} src={`${process.env.PUBLIC_URL}/kaizenSquare.jpg`} alt="" />
+        <img style={{ marginRight: '0px', width: '120px' }} src={`${process.env.PUBLIC_URL}/kaizenSquare.jpg`} alt="" />
         <div style={{
           display: 'flex', flexDirection: 'column', alignItems: 'flex-start',
         }}
