@@ -3,7 +3,7 @@ import { InfoContainer, InfoInner } from './styles'
 
 const About = () => (
   <InfoContainer>
-    <InfoInner style={{ fontSize: '16px', fontFamily: 'helvetica-w01-light,helvetica-w02-light,sans-serif', lineHeight: '2em' }}>
+    <InfoInner style={{ fontSize: '16px', lineHeight: '2em' }}>
       <p style={{ fontSize: '48px' }}>About Me</p>
       <p style={{ fontSize: '20px' }}>I’m a highly motivated and ambitious 22 year old with an undying hunger for learning. My hobbies and interests include public speaking, social activism, strategy consulting, and UI/UX design. I'm passionate about mental health, education, healthcare systems, emerging technology, and global cultures. </p>
       <p style={{ fontSize: '20px' }}>

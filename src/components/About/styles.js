@@ -14,7 +14,7 @@ export const InfoInner = styled.div`
     flex-direction: column;  
     width: 960px;
     color: white;
-    font-family: helvetica-w01-light,helvetica-w02-light,sans-serif;
+    font-family: sans-serif;
     padding-top: 20px;
     padding-bottom: 100px;
 `

@@ -2,7 +2,7 @@
   "name": "bootcamp-web-starter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://KevinH48264.github.io/satvik-personal-website",
+  "homepage": "https://KevinH48264.github.io",
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
     "@storybook/react": "^5.3.19",
