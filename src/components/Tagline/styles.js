@@ -6,7 +6,7 @@ export const TagContainer = styled.div`
     justify-content: center;  
     align-items: center;
     width: 100%; 
-    height: 800px;
+    height: 640px;
     margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 0px;
@@ -18,7 +18,7 @@ export const TagInner = styled.div`
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;  
-    width: 1200px;
+    width: 960px;
     color: black;
-    font-size: 88px;
+    font-size: 72px;
 `

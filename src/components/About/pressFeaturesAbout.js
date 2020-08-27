@@ -6,7 +6,7 @@ import {
 const PressFeaturesAbout = () => (
   <InfoContainer style={{ backgroundColor: '#DAEDFF' }}>
     <InfoInner style={{ color: 'black', fontFamily: 'helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif' }}>
-      <p style={{ color: '#1468A8', fontSize: '48px' }}>Press Features</p>
+      <p style={{ color: '#1468A8', fontSize: '40px' }}>Press Features</p>
       <div style={{ width: '100%', display: 'flex', flexDirection: 'row' }}>
         <div style={{ width: '50%' }} id="column1">
           <Feature style={{ backgroundColor: '#51BAFC' }}>

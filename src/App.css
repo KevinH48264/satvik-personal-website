@@ -3,6 +3,8 @@
     top: 100px;
     left: 0;
     right: 0;
+    zoom: 80%;
+    transform: scale(0.8);
 }
 
 /* simple - enter transition 300ms, exit 150ms */

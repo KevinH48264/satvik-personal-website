@@ -12,11 +12,11 @@ export const InfoInner = styled.div`
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;  
-    width: 1200px;
+    width: 960px;
     color: white;
     font-family: helvetica-w01-light,helvetica-w02-light,sans-serif;
-    padding-top: 25px;
-    padding-bottom: 125px;
+    padding-top: 20px;
+    padding-bottom: 100px;
 `
 export const Feature = styled.div`
     background-color: black;
@@ -24,25 +24,25 @@ export const Feature = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 275px;
-    padding: 25px;
+    height: 220px;
+    padding: 20px;
 `
 export const FeatureHeading = styled.p`
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
     margin: 0px;
 `
 
 export const FeatureText = styled.p`
-    font-size: 24px;
+    font-size: 20px;
 `
 
 export const FeatureLink = styled.a`
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     text-decoration: none;
 `
 
 export const Text = styled.p`
-    font-size: 18px;
+    font-size: 16px;
 `
